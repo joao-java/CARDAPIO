@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    max-width: 100vh;
+    height: 100vh;
+  }
+  body #container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  body #container img {
+    width: 100%;
+    height: 100%;
+  }
+  body #container .home {
+    position: absolute;
+    background: rgba(45, 43, 43, 0.1411764706);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  body #container .home .header {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+  }
+  body #container .home .header h4 {
+    color: #fff;
+  }
+  body #container .home .meio {
+    position: absolute;
+    width: 60%;
+    height: 3rem;
+    left: 50%;
+    bottom: 23%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  body #container .home .meio a {
+    display: block;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    line-height: 2.5rem;
+    letter-spacing: 2px;
+    background: #FFE600;
+    border-radius: 9px;
+    box-shadow: 0px 2px 5px rgb(213, 200, 18);
+  }
+  body #container .home .meio a span {
+    color: rgb(35, 35, 35);
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body #container .home .rodape {
+    width: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translate(-50%);
+    background: #fff;
+    display: flex;
+    align-items: center;
+  }
+  body #container .home .rodape ul {
+    width: 100%;
+    height: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
