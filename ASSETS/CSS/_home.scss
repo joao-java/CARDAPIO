@@ -35,7 +35,7 @@
 
                 .header{
                     position: absolute;
-                    right: 1rem;
+                    left: 1rem;
                     top: 1rem;
                     h4{
                         color: #fff;
@@ -74,14 +74,13 @@
                     position: absolute;
                     bottom: 2rem;
                     left: 50%;
-                    transform: translate(-50%);
-                    background: #fff;
+                    transform: translate(-50%); 
                     display: flex;
                     align-items: center;
+                    justify-content: space-between;
 
-                    ul{
-                        width: 100%;
-                        height: 100%;
+                    a{
+                        width: 20%;
                     }
                 }
             }
