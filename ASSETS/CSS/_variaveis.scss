@@ -1,4 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+
+/* ___________ fonts ___________ */
+$--font-princ: 'Roboto', sans-serif;
+
 $--cor:#FFE600;
+$--cor-sombra:#5f5d5dbe;
+
+$--back--op: #FAF5F5;
+$--back--opNav: #5e5e5e;
+$--back--opDet: #FAF5F5;
 
 /* ___________ menu ___________ */
 $--menu-border: #ffe600;
+
+/* ___________ border - radius ___________ */
+$--border-rad-1: 5px;
+$--border-rad-2: 10px;
+
+
+/* ___________ mix ___________ */
+@mixin sombra__1 {
+    box-shadow: 2px 2px 5px $--cor-sombra;
+}
+@mixin op {
+    box-shadow: 1px 5px 4px $--cor-sombra;
+    border-radius: 2px;
+}
+
+/* ___________ mix ___________ */
+$--color-text1: #0c0c0c;
+$--color-text2: #000000;
+$--color-text3: #2a2a2a;
