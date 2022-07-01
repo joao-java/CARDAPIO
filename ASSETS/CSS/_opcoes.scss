@@ -20,7 +20,7 @@
             display: flex;
             justify-content: space-between;
             width: 100%;
-            padding: 0.5rem;
+            padding: 0.5rem 3rem;
             align-items: center;
 
             img{
@@ -36,6 +36,7 @@
             background: $--back--opNav;
             padding: 5px;
             border-radius: $--border-rad-1;
+            font-size: 12px;
             
             a{
                 color: #fff;
@@ -49,7 +50,8 @@
             grid-template-columns: 1fr 1fr;
             grid-gap: 5px;
             overflow-y: scroll;
-            padding: 1.5rem 0.5rem;
+            margin-top: 1rem;
+            padding: 0.5rem;
 
             .card{
                 background: #fff;
