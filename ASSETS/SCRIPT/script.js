@@ -11,18 +11,22 @@ li.forEach(function(cada, i){
     }
 });
 
-// ________________________________________________________
+//  _______________________qtd de cada menu_____________________________
+let qts__opcoes = document.querySelectorAll('.menu a').length, 
+qtd__lanches = document.querySelectorAll('.opcoesOP .card');
 
-// localStorage.setItem('value', document.querySelectorAll(".opcoesOP .card").length);
-// let teste = localStorage.getItem('value');
-// console.log(teste);
+console.log(`Quantas opeções: ${qts__opcoes} \nQuantidade lanches: ${qtd__lanches.length}
+`);
 
-let spann = document.querySelectorAll(".opcoesOP .card").length;
-let arma = 0+spann;
-// sessionStorage.setItem('value', spann);
-// let teste1 = sessionStorage.getItem('value');
-// console.log(teste1);
-console.log(arma);
 
-let bla = document.cookie = document.querySelectorAll(".opcoesOP .card");
-console.log(bla);
+//  _______________________..._____________________________
+let cards__oder = document.querySelectorAll('.card .valor');
+console.log(cards__oder);
+
+
+// cards__oder.forEach(function (cada, i) {
+//     console.log(cada);
+//     qtd__lanches.forEach(function (cadal, l) {
+//         console.log(cadal);
+//     })
+// })
